@@ -1,0 +1,312 @@
+/*
+*   css botonesss
+*
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana;
+    background-color: #eceff1 ;
+}
+h2{
+    text-align: center;
+}
+
+.navbar-fixed{
+    height: 100px;
+}
+
+.tabLibros{
+height: 50px;
+ margin-top: 20px;
+ padding: 10px;
+text-align: center;
+}
+.tabLibros:hover{
+background-color: #273E5A;
+}
+.tabLibros span{
+color: white;
+font-weight: bold;
+font-size: 16px;
+}
+
+.logoED{
+    height: 100px;
+    width: auto;
+    float: left;
+    z-index: 1000;
+}
+.hola{  
+    width: 100%;
+    padding: 15px;
+    height: 60px;
+    display:inline-block;
+    background-color: #263238;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    color: white;
+} 
+.ref{
+    padding: 30px;
+}
+.ccv{  
+    width: 100%;
+   
+    height: 50px;
+    display:inline-block;
+    background-color: black;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    color: white;
+}  
+.camarita{
+    position: relative;
+    left: -20px;
+    top:-10px;
+    height: 70px;
+    width: 70px;
+    
+}
+/*
+.menu{
+    width: 100%;
+    height: 100px;
+    -webkit-box-shadow: 1px 14px 12px -10px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 14px 12px -10px rgba(0,0,0,1);
+    box-shadow: 1px 14px 12px -10px rgba(0,0,0,1);
+    background-color: #1C1C1C;
+    text-align: center;
+    padding: 10px;
+}
+*/
+.opacity{
+    background-color:rgba(20,0,0,0.1);
+
+}
+.DesTit{
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.mg{
+    padding-right: 10px;
+}
+.home{
+    text-align: center;
+}
+img{
+    width: 50%;
+    margin: auto;
+}
+footer{
+
+    width: 100%;
+    line-height: 1em;
+    bottom: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+.bordes{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.accesos i{
+    font-size: 50px;
+    margin-top: 15px;
+
+}
+
+.titulocursos{
+    padding: 10px;
+    max-width: 100%;
+    color: #fffdff;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color:  rgba(0%, 0%, 10%, 0.65);
+    font-weight: bold;
+
+}
+
+.titulocurso{
+    padding: 15px;
+    font-size: 20px;
+    max-width: 100%;
+    color: #fffdff;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(0%, 0%, 10%, 0.65);
+    font-weight: bold;
+
+}
+/***************************************************/
+.tLibro {
+
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 44px; 
+    background: white; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+}
+.titcar{
+    background-color: #263238;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.titlibro{
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(0%, 0%, 10%, 0.65);
+    font-weight: bold;
+}
+.preper{
+    text-align: right;
+    font-size: 18px;
+     font-weight: bold;
+}
+.lprecio{
+    display: block;
+    font-size: 16px;
+    text-align: right;
+}
+.txtprecio{
+    color: gray;
+    display: block;
+    font-size: 10px;
+    text-align: right;
+}
+.carLibro{
+    width: 100%;
+}
+.txtpre{
+   float: left;
+    width: 33%;
+    text-align: center;
+    color: gray;
+    display: block;
+    font-size: 10px;
+}
+.dtpre{
+   margin-bottom: 20px;
+    font-size: 13px;
+}
+.dtprec{
+  right: 5px;
+   padding-top: 20px;
+    font-size: 14px;
+}
+.totalcar{
+    background-color: white;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    
+}
+.expcar{
+    
+    font-size: 11px;
+    height: 18px;
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    color: black;
+    top: -0px;
+    right: 20px;
+    float: right;
+    background: #ff5722 ;
+    border-radius: 50px;
+    text-align: center;
+   
+}
+.carCar{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: white;
+    float: right;
+    display: inline-block;
+}
+.carCar span{
+    color:white;
+    font-size: 12px;
+}
+
+.carrito{
+    font-size: 35px;
+    padding-right: 10px;
+}
+.card-action{
+    font-weight: bold;
+}
+.card-action a:hover{
+    color: black;
+}
+
+/******************************/
+.imginfo{
+    width: 80%;
+    margin: 10%;
+
+}
+.tit{
+    padding: 15px;
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: #546e7a;
+    font-size: 20px;
+    font-family: verdana;
+    line-height: 1em;}	
+
+
+
+/*********************************/
+
+.slider .indicators {
+    bottom: 60px;
+    z-index: 100;
+    /* text-align: left; */
+}
+
+fullscreenn{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+   
+}

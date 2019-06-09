@@ -1,0 +1,48 @@
+*{
+			margin: 0px;
+			padding: 0px;
+			font-family: tahoma;
+		}
+		label{
+			padding-top: 10px;
+			width: 100%;
+			display: block;
+			height: 25px;
+			font-weight: bold;
+			
+		}
+		fieldset{
+			padding: 10px;
+			margin-top: 10px;
+		}
+
+		input{
+			width: 100%;
+			display: block;
+			height: 25px;
+		}
+
+		textarea{
+			width: 100%;
+		}
+
+		.btn{
+			
+			display: inline-block;
+			width: 49%;
+			height:30px;
+			font-size: 16px;
+			
+		}
+		
+	
+
+		form{
+			width: 50%;
+			margin: auto;
+		}
+
+		form p{
+			height: 20px;
+		}
+
